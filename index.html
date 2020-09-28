@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>Form practice</title>
+</head>
+<link rel="stylesheet" href="style/style.css">
+<script src="js/animation-form.js" defer></script>
+<body>
+    <div class="content-box">
+        <div class="content-before">
+            <h2>Login</h2>
+        </div>
+        <div class="content-after">
+            <form class="login-form">
+                <div class="form-item">
+                    <label  for="email" >Email :</label>
+                    <div class="input-box">
+                        <input type="email" id="email-input" aria-describedby="emailHelp
+                        ">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label  for="pass" >Password :</label>
+                    <div class="input-box">
+                        <input type="password" id="password-input">
+                        <span id="eye"><i id="hide-eye" class="far fa-eye"></i></span>
+                    </div>
+                </div>
+                <button type="submit" class="btn-submit">Submit!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

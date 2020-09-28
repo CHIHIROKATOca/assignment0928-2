@@ -1,0 +1,136 @@
+
+
+.form-item{
+    margin-bottom: 10px;
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*:before , *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:0.05em;
+    font-weight: 200;
+    color:rgb(72, 71, 66);
+    margin:0 auto;
+    padding:0;
+    height: 100%;
+}
+main{
+    margin:0 auto;
+    padding:0;
+}
+p {
+    margin:0 auto;
+    padding:0;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Playfair Display', serif;
+    letter-spacing:0.1em;
+    font-feature-settings: "palt";
+    margin:0 auto;
+    padding:0;
+    color: rgb(105, 102, 102);
+}
+img {
+    max-width:100%;
+    margin:0 auto;
+    height:auto;
+    display: block;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+label{
+    color: black;
+}
+
+.content-box{
+    width: 100px;
+    margin: 50px auto ;
+    background-color: rgba(167, 139, 144, 0.2);
+}
+.content-before{
+text-align: center;
+color: black;
+background-color: #fba8a4;
+}
+
+
+.content-before h2{
+    padding:10px;
+    font-size: 20px;
+}
+
+.content-after{
+    opacity: 0;
+    display: none;
+    padding: 20px;
+    line-height: 1.4;
+}
+.input-box{
+    margin: 0;
+    padding: 0;
+}
+.login-form{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: table;
+    clear: both;
+}
+.form-item{
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.input-box.error{
+    border: 2px solid rgb(208, 109, 109);
+    border-radius: 3%;
+}
+
+.btn-submit{
+    background-color: #fba8a4;
+    background-image:llinear-gradient(315deg, #fba8a4 0%, #dad2f3 74%);
+    padding: 13px 20px;
+    float: right;
+    border:none;
+    color:rgb(72, 71, 66);
+    border-radius: 3%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.eye{
+    position: absolute;
+    cursor: pointer;
+}
+
+.far{
+    color: rgb(69, 69, 69);
+}
